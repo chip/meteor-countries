@@ -1,7 +1,8 @@
 countries
 =========
 
-Meteor package for providing a list of countries
+[![Build
+Status](https://travis-ci.org/chip/meteor-countries.svg)](https://travis-ci.org/chip/meteor-countries)
 
 ## Installation
 
