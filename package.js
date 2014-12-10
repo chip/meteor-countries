@@ -2,13 +2,13 @@ Package.describe({
   name: 'chipcastle:countries',
   summary: 'Provides a list of countries',
   version: '1.0.0',
-  git: 'https://github.com/chip/countries.git'
+  git: 'https://github.com/chip/meteor-countries.git'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
   api.use(["spacebars", "ui"], "client");
-  api.addFiles('chipcastle:countries.js', 'client');
+  api.addFiles('countries.js', 'client');
 
   if (typeof api.export !== 'undefined') {
     api.export("Countries", ["client"]);
@@ -17,6 +17,5 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use(['tinytest', 'ui', 'underscore'], 'client');
-  api.use('chipcastle:countries', 'client');
-  api.addFiles('chipcastle:countries-tests.js');
+  api.addFiles(['countries.js', 'countries-tests.js'], 'client');
 });
