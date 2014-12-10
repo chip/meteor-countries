@@ -251,6 +251,10 @@ Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png
 
 ## License
 
-**MIT**
+Software provided under the
+[MIT License](https://github.com/chip/meteor-countries/blob/master/LICENSE).
 
 
+## Endorse my work on Coderwall
+
+[![endorse](https://api.coderwall.com/chip/endorsecount.png)](https://coderwall.com/chip)
