@@ -5,16 +5,20 @@ Meteor package for providing a list of countries
 
 Installation:
 
+```
   meteor add chipcastle:countries
+```
 
 
 Example usage:
 
+```
   <select>
     {{#each countries}}
       <option value="{{name}}">{{name}}</option>
     {{/each}}
   </select>
+```
 
 Source of country list:
 
