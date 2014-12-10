@@ -3,14 +3,14 @@ countries
 
 Meteor package for providing a list of countries
 
-Installation:
+## Installation
 
 ```
   meteor add chipcastle:countries
 ```
 
 
-Example usage:
+## Example usage
 
 ```
   <select>
@@ -20,6 +20,11 @@ Example usage:
   </select>
 ```
 
-Source of country list:
+## Source of country list
 
 Provided by the [US Department of State](http://www.state.gov/misc/list/)
+
+## Donating
+
+[![Support via
+Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png)](https://gratipay.com/chip/)
