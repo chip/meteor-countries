@@ -3,8 +3,11 @@ chipcastle:countries
 
 A Meteor package for providing a list of countries.
 
+## Build status
+
 [![Build
 Status](https://travis-ci.org/chip/meteor-countries.svg)](https://travis-ci.org/chip/meteor-countries)
+
 
 ## Installation
 
@@ -235,6 +238,7 @@ This would produce a `select` tag with the following results:
   </select>
 ```
 
+
 ## Source of country list
 
 Provided by the [US Department of State](http://www.state.gov/misc/list/)
@@ -243,3 +247,10 @@ Provided by the [US Department of State](http://www.state.gov/misc/list/)
 
 [![Support via
 Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png)](https://gratipay.com/chip/)
+
+
+## License
+
+**MIT**
+
+
