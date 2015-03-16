@@ -3,7 +3,7 @@ if (Meteor.isClient) {
   var countryList = _.pluck(Countries(), 'name');
 
   Tinytest.add("Countries - count", function (test) {
-    test.equal(countryList.length, 205);
+    test.equal(countryList.length, 206);
   });
 
   Tinytest.add("countryList - Afghanistan", function (test) {
@@ -792,6 +792,10 @@ if (Meteor.isClient) {
 
   Tinytest.add("countryList - United Kingdom", function (test) {
     test.include(countryList, "United Kingdom");
+  });
+
+  Tinytest.add("countryList - United States", function (test) {
+    test.include(countryList, "United States");
   });
 
   Tinytest.add("countryList - Uruguay", function (test) {

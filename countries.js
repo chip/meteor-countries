@@ -199,6 +199,7 @@ if (Meteor.isClient) {
       { name: 'Ukraine' },
       { name: 'United Arab Emirates' },
       { name: 'United Kingdom' },
+      { name: 'United States' },
       { name: 'Uruguay' },
       { name: 'Uzbekistan' },
       { name: 'Vanuatu' },

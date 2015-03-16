@@ -1,7 +1,7 @@
 Package.describe({
   name: 'chipcastle:countries',
   summary: 'Provides a list of countries',
-  version: '1.0.1',
+  version: '1.0.2',
   git: 'https://github.com/chip/meteor-countries.git'
 });
 

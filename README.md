@@ -227,6 +227,7 @@ This would produce a `select` tag with the following results:
     <option value="Ukraine">Ukraine</option>
     <option value="United Arab Emirates">United Arab Emirates</option>
     <option value="United Kingdom">United Kingdom</option>
+    <option value="United States">United States</option>
     <option value="Uruguay">Uruguay</option>
     <option value="Uzbekistan">Uzbekistan</option>
     <option value="Vanuatu">Vanuatu</option>
@@ -258,3 +259,15 @@ Software provided under the
 ## Endorse my work on Coderwall
 
 [![endorse](https://api.coderwall.com/chip/endorsecount.png)](https://coderwall.com/chip)
+
+
+## Contributing
+
+Please fork this repo and write tests.
+
+
+## Testing
+
+From within this repository's directory:
+
+    meteor test-packages ./
